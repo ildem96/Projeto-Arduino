@@ -13,6 +13,7 @@
 a{color: #BAE4F1}
 
 #titulo{
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +58,7 @@ img{border-radius: 10px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-family: 'Raleway', sans-serif;}
 .navegacao a{
-    color: #BAE4F1
+    color: #ffffff
 }
 /*-------------------------------*/
 h2{
@@ -69,6 +70,7 @@ h2{
 
 /*_____________start_______________*/
 .intro{
+    border: solid 1px #fff;
     padding: 20px;
     display: flex;
     align-items:flex-start;
@@ -86,14 +88,16 @@ h2{
 
 /*________________________________*/
 .prog{
-    padding: 20px;
+    border: solid 1px #fff;
     display: flex;
-    align-items:flex-start;
+    align-items:center;
     flex-direction:row;
     align-items: center;
-    justify-content: none;
+    justify-content:none;
+    
 }
 .prog-text{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -102,15 +106,19 @@ h2{
 }
 }
 /*________________________________*/
-.why{
+
+.func{
+    
     padding: 20px;
     display: flex;
-    align-items:flex-start;
+    justify-content:center;
     flex-direction:row;
     align-items: center;
-    justify-content: none;
+    
+    
 }
-.why-text{
+
+.func-tex{
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -119,15 +127,15 @@ h2{
 }
 
 /*________________________________*/
-.func{
+.why{
     padding: 20px;
     display: flex;
-    align-items:flex-start;
-    flex-direction:row-reverse;
+    align-items:center;
+    flex-direction:row;
     align-items: center;
-    justify-content: none;
+    justify-content:center;
 }
-.func-tex{
+.why-text{
     display: flex;
     flex-direction: column;
     text-align: justify;
