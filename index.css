@@ -30,22 +30,32 @@ body{
 }
 
 img{border-radius: 10px;
-    width: 500px;
-    height: 270px;
+    width: 520px;
+    height: 280px;
+    
+    margin: 10px 0px 10px 0px;
+
 }
 
 .arduino-background{
-    border-radius: 0;
     width: 100%;
     height:fit-content;
 }
 
 .navegacao{
+    
+    border-right-color: #fff;
     display: flex;
     flex-direction: row;
     align-items:center;
     justify-content:space-around; 
     color: #fff;
+}
+li:hover{
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+    position:;
 }
 
 /*----container-----*/
@@ -78,12 +88,13 @@ h2{
     align-items: center;
     justify-content: none;
 }
-.intro-tex p{
+
+.intro-text p{
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 0px 30px 0px 30px;
-    margin-top: 10px;
+    
 }
 
 /*________________________________*/
@@ -94,25 +105,26 @@ h2{
     flex-direction:row;
     align-items: center;
     justify-content:none;
+    padding: 0px 20px 0px 20px;
     
 }
 .prog-text{
-    padding: 20px;
+    
     display: flex;
     flex-direction: column;
     text-align: justify;
     padding: 0px 30px 0px 30px;
     margin-top: 10px;
 }
-}
+
 /*________________________________*/
 
 .func{
     
-    padding: 20px;
+    padding:20px;
     display: flex;
-    justify-content:center;
-    flex-direction:row;
+    justify-content:;
+    flex-direction:row-reverse;
     align-items: center;
     
     
@@ -128,10 +140,11 @@ h2{
 
 /*________________________________*/
 .why{
+    border-bottom: solid 1px #fff;
     padding: 20px;
     display: flex;
     align-items:center;
-    flex-direction:row;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content:center;
 }
@@ -145,6 +158,17 @@ h2{
 
 /*________________________________*/
 .container-main{
-    background-color: #0c666d;
+   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #094d52;
     padding: 0px 30px 0px 30px;
+    margin:5px;
+}
+#title1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: bold;
 }
